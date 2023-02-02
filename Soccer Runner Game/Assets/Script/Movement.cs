@@ -17,11 +17,11 @@ public class Movement : MonoBehaviour
     public GameObject AudioManager;
 
 
-    public float forwardForce = 10;
-    public float sidewayForce = 4;
+    public float forwardForce = 10f;
+    public float sidewayForce = 4f;
 
-    public float jumpForce = 10;
-    private float gravity = -20;
+    public float jumpForce = 10f;
+    private float gravity = -20f;
 
 
     void Start()

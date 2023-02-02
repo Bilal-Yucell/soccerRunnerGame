@@ -30,7 +30,6 @@ public class Shoot : MonoBehaviour
     private int earnedCoin = 200;
     private float multiplierCoin = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         int sound = PlayerPrefs.GetInt("sound");
@@ -48,7 +47,6 @@ public class Shoot : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.X) && !isPressed)

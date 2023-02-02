@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    // private Movement movement;
+    // Movement movement;
 
     public void Play()
     {
